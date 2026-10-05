@@ -1,0 +1,2 @@
+import{j as s,a4 as i,S as l,h as n,a_ as x}from"./index-DdSpOZIz.js";import{S as c}from"./ThemeContext-aud7AxoR.js";function o({title:t,value:a}){return s.jsx(i,{p:"md",shadow:"xs",children:s.jsxs(l,{gap:"xs",children:[s.jsx(c,{size:"md",children:t}),s.jsx(n,{children:a})]})})}function p({items:t,minItems:a=3}){return s.jsx(x,{cols:{base:1,sm:Math.min(2,a),md:Math.min(3,a),lg:a},spacing:"xs",children:t.map((e,r)=>s.jsx(o,{title:e.title,value:e.value},`${r}-${e.value}`))})}export{p as F};
+//# sourceMappingURL=FactCollection-SPzvg1sB.js.map

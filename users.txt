@@ -1,0 +1,17 @@
+InvenTree local demo - user accounts
+URL: http://localhost:8080
+(Public demo dataset logins - for local testing only)
+
+Username    Password          Access
+---------   ---------------   ----------------------------------------------
+admin       inventree         Superuser - full access to everything
+steven      wizardstaff       Staff - can access some admin sections
+allaccess   nolimits          View / create / edit all pages and items
+reader      readonly          View everything, cannot create/edit/delete
+engineer    partsonly         Manage parts, view stock, no purchase/sales orders
+noaccess    youshallnotpass   Can log in but has no permissions
+ian         inactive          Disabled - cannot log in
+susan       inactive          Disabled - cannot log in
+
+Tip for the agent: use "reader" for read-only tools and "allaccess"
+for write tools, so permissions are enforced by InvenTree itself.
